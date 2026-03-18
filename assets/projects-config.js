@@ -1,6 +1,5 @@
 /**
  * CONFIGURATION DES PROJETS — PORTFOLIO SANDRINE KELLAM
- * COMMENT AJOUTER DES PHOTOS ?
  * 1. Glisse tes photos dans le dossier du projet concerné
  * 2. Ajoute le nom du fichier dans le tableau "images" ici
  * 3. Sauvegarde + recharge le navigateur
@@ -8,6 +7,45 @@
 
 const PROJECTS_CONFIG = [
 
+  /* ── 1. MASTER MEC ── */
+  {
+    id: "mec1",
+    title: "Master MEC",
+    subtitle: "Direction artistique & shooting photo",
+    description: "Direction artistique et production d'un shooting photo professionnel. Mise en scène, coordination des modèles (Anne, JC, Sandrine) et post-production des visuels.",
+    tags: ["Shooting", "Support oral", "Photo"],
+    tagColor: "red",
+    bgGradient: "linear-gradient(145deg,#1a0505 0%,#3d1010 40%,#7c1a1a 75%,#b52020 100%)",
+    icon: "📚",
+    images: [
+      "assets/photos/projects/Master MEC/1.png","assets/photos/projects/Master MEC/2.png",
+      "assets/photos/projects/Master MEC/18.png","assets/photos/projects/Master MEC/Anne.png",
+      "assets/photos/projects/Master MEC/Anne (2).png","assets/photos/projects/Master MEC/Anne (3).png",
+      "assets/photos/projects/Master MEC/Anne (4).png","assets/photos/projects/Master MEC/JC.png",
+      "assets/photos/projects/Master MEC/JC (2).png","assets/photos/projects/Master MEC/JC (3).png",
+      "assets/photos/projects/Master MEC/JC (4).png","assets/photos/projects/Master MEC/JC (5).png",
+      "assets/photos/projects/Master MEC/JC (6).png","assets/photos/projects/Master MEC/JC (7).png",
+      "assets/photos/projects/Master MEC/Sandrine.png","assets/photos/projects/Master MEC/Sandrine (2).png",
+      "assets/photos/projects/Master MEC/Sandrine (3).png","assets/photos/projects/Master MEC/Sandrine (4).png",
+    ]
+  },
+
+  /* ── 2. POWER BI ── */
+  {
+    id: "power-bi",
+    title: "Power BI",
+    subtitle: "Tableaux de bord & analyse de données",
+    description: "Conception de dashboards interactifs Power BI pour le suivi des campagnes marketing direct, l'analyse des KPIs de collecte et le reporting hebdomadaire auprès de la direction.",
+    tags: ["Data", "Dashboards", "Reporting"],
+    tagColor: "blue",
+    bgGradient: "linear-gradient(145deg,#0a0a1a 0%,#1a1a3e 40%,#2d2d6e 70%,#f2c811 100%)",
+    icon: "📊",
+    images: [
+      // ← Glisse tes captures Power BI ici
+    ]
+  },
+
+  /* ── 3. POULET MIKAT ── */
   {
     id: "poulet-mikat",
     title: "Poulet Mikat",
@@ -25,9 +63,44 @@ const PROJECTS_CONFIG = [
       "assets/photos/projects/poulet-mikat/4.png",
       "assets/photos/projects/poulet-mikat/5.png",
       "assets/photos/projects/poulet-mikat/6.png",
+      "assets/photos/projects/poulet-mikat/7.jpeg",
+      "assets/photos/projects/poulet-mikat/8.jpeg",
     ]
   },
 
+  /* ── 4. DAMCOMPANY ── */
+  {
+    id: "damcompany",
+    title: "DamCompany",
+    subtitle: "Agence web & développement digital",
+    description: "Collaboration avec l'agence DamCompany pour la conception et le développement de sites web professionnels. Design, intégration et déploiement de solutions digitales sur mesure.",
+    tags: ["Web", "Design", "Digital"],
+    tagColor: "gold",
+    bgGradient: "linear-gradient(145deg,#1a1400 0%,#2e2200 35%,#4a3800 65%,#f2c200 100%)",
+    icon: "💻",
+    images: [
+      // ← Glisse tes visuels DamCompany ici
+    ]
+  },
+
+  /* ── 5. MA1 ── */
+  {
+    id: "ma1",
+    title: "MA1",
+    subtitle: "Ton assistant personnel de la route",
+    description: "Création du logo et de l'identité visuelle pour MA1 — une application d'intelligence artificielle pour les conducteurs.",
+    tags: ["Logo", "Tech & IA", "Automobile"],
+    tagColor: "blue",
+    bgGradient: "linear-gradient(145deg,#000000 0%,#0a0e1e 40%,#1a2e5f 70%,#0052cc 100%)",
+    icon: "🚗",
+    images: [
+      "assets/photos/projects/ma1/1.png","assets/photos/projects/ma1/2.png",
+      "assets/photos/projects/ma1/3.png","assets/photos/projects/ma1/4.png",
+      "assets/photos/projects/ma1/5.png","assets/photos/projects/ma1/6.png",
+    ]
+  },
+
+  /* ── 6. VTCSR ── */
   {
     id: "vtcsr",
     title: "VTCSR",
@@ -49,37 +122,7 @@ const PROJECTS_CONFIG = [
     ]
   },
 
-  {
-    id: "tokyo-zen",
-    title: "Tokyo Zen",
-    subtitle: "Massage & Bien-être",
-    description: "Carte de visite et menu des prestations pour un institut de massage & bien-être en Île-de-France. Design épuré aux tons terre et ivoire.",
-    tags: ["Bien-être", "Carte de visite", "Menu"],
-    tagColor: "beige",
-    bgGradient: "linear-gradient(155deg,#3d1f12 0%,#8b5e3c 40%,#d4a47c 75%,#e8c9a8 100%)",
-    icon: "🌸",
-    images: [
-      "assets/photos/projects/tokyo-zen/1.png",
-      "assets/photos/projects/tokyo-zen/2.png",
-    ]
-  },
-
-  {
-    id: "sdg",
-    title: "SDG",
-    subtitle: "Projet créatif & communication",
-    description: "Création visuelle et supports de communication pour le projet SDG. Identité graphique soignée et cohérente sur l'ensemble des supports produits.",
-    tags: ["Design", "Branding", "Communication"],
-    tagColor: "purple",
-    bgGradient: "linear-gradient(145deg,#1e1b4b 0%,#3730a3 45%,#6366f1 100%)",
-    icon: "✨",
-    images: [
-      "assets/photos/projects/SDG/1.png","assets/photos/projects/SDG/2.png",
-      "assets/photos/projects/SDG/3.png","assets/photos/projects/SDG/4.png",
-      "assets/photos/projects/SDG/5.png",
-    ]
-  },
-
+  /* ── 7. KINGBREL ── */
   {
     id: "kingbrel",
     title: "Kingbrel",
@@ -95,6 +138,23 @@ const PROJECTS_CONFIG = [
     ]
   },
 
+  /* ── 8. TOKYO ZEN ── */
+  {
+    id: "tokyo-zen",
+    title: "Tokyo Zen",
+    subtitle: "Massage & Bien-être",
+    description: "Carte de visite et menu des prestations pour un institut de massage & bien-être en Île-de-France. Design épuré aux tons terre et ivoire.",
+    tags: ["Bien-être", "Carte de visite", "Grille tarifaire"],
+    tagColor: "beige",
+    bgGradient: "linear-gradient(155deg,#3d1f12 0%,#8b5e3c 40%,#d4a47c 75%,#e8c9a8 100%)",
+    icon: "🌸",
+    images: [
+      "assets/photos/projects/tokyo-zen/1.png",
+      "assets/photos/projects/tokyo-zen/2.png",
+    ]
+  },
+
+  /* ── 9. IL RESTAURE ENCORE ── */
   {
     id: "il-restaure-encore",
     title: "Il restaure encore !",
@@ -112,45 +172,7 @@ const PROJECTS_CONFIG = [
     ]
   },
 
-  {
-    id: "ma1",
-    title: "MA1",
-    subtitle: "Ton assistant personnel de la route",
-    description: "Création du logo et de l'identité visuelle pour MA1 — une application d'intelligence artificielle pour les conducteurs.",
-    tags: ["Logo", "Tech & IA", "Automobile"],
-    tagColor: "blue",
-    bgGradient: "linear-gradient(145deg,#000000 0%,#0a0e1e 40%,#1a2e5f 70%,#0052cc 100%)",
-    icon: "🚗",
-    images: [
-      "assets/photos/projects/ma1/1.png","assets/photos/projects/ma1/2.png",
-      "assets/photos/projects/ma1/3.png","assets/photos/projects/ma1/4.png",
-      "assets/photos/projects/ma1/5.png","assets/photos/projects/ma1/6.png",
-      "assets/photos/projects/ma1/7.png",
-    ]
-  },
-
-  {
-    id: "mec1",
-    title: "MEC 1",
-    subtitle: "Direction artistique & shooting photo",
-    description: "Direction artistique et production d'un shooting photo professionnel. Mise en scène, coordination des modèles (Anne, JC, Sandrine) et post-production des visuels.",
-    tags: ["Shooting", "Direction artistique", "Photo"],
-    tagColor: "red",
-    bgGradient: "linear-gradient(145deg,#1a0505 0%,#3d1010 40%,#7c1a1a 75%,#b52020 100%)",
-    icon: "📚",
-    images: [
-      "assets/photos/projects/MEC 1/1.png","assets/photos/projects/MEC 1/2.png",
-      "assets/photos/projects/MEC 1/18.png","assets/photos/projects/MEC 1/Anne.png",
-      "assets/photos/projects/MEC 1/Anne (2).png","assets/photos/projects/MEC 1/Anne (3).png",
-      "assets/photos/projects/MEC 1/Anne (4).png","assets/photos/projects/MEC 1/JC.png",
-      "assets/photos/projects/MEC 1/JC (2).png","assets/photos/projects/MEC 1/JC (3).png",
-      "assets/photos/projects/MEC 1/JC (4).png","assets/photos/projects/MEC 1/JC (5).png",
-      "assets/photos/projects/MEC 1/JC (6).png","assets/photos/projects/MEC 1/JC (7).png",
-      "assets/photos/projects/MEC 1/Sandrine.png","assets/photos/projects/MEC 1/Sandrine (2).png",
-      "assets/photos/projects/MEC 1/Sandrine (3).png","assets/photos/projects/MEC 1/Sandrine (4).png",
-    ]
-  },
-
+  /* ── 10. DESTINÉE ── */
   {
     id: "destinee",
     title: "Destinée",
@@ -169,18 +191,24 @@ const PROJECTS_CONFIG = [
     ]
   },
 
+  /* ── 11. SDG ── */
   {
-    id: "action-contre-faim",
-    title: "Action contre la Faim",
-    subtitle: "Marketing direct & collecte 360°",
-    description: "Refonte des supports de collecte (Welcome Pack, courriers, scripts télémarketing). Mise en place et suivi des campagnes marketing direct multicanal pour l'ONG ACF.",
-    tags: ["ONG", "Marketing direct", "Campagnes"],
-    tagColor: "red",
-    bgGradient: "linear-gradient(145deg,#450a0a 0%,#991b1b 50%,#dc2626 100%)",
-    icon: "🍽️",
-    images: []
+    id: "sdg",
+    title: "SDG",
+    subtitle: "Projet créatif & communication",
+    description: "Création visuelle et supports de communication pour le projet SDG. Identité graphique soignée et cohérente sur l'ensemble des supports produits.",
+    tags: ["Design", "Créativité", "Communication"],
+    tagColor: "purple",
+    bgGradient: "linear-gradient(145deg,#1e1b4b 0%,#3730a3 45%,#6366f1 100%)",
+    icon: "✨",
+    images: [
+      "assets/photos/projects/SDG/1.png","assets/photos/projects/SDG/2.png",
+      "assets/photos/projects/SDG/3.png","assets/photos/projects/SDG/4.png",
+      "assets/photos/projects/SDG/5.png",
+    ]
   },
 
+  /* ── 12. NOUVEAU PROJET ── */
   {
     id: "projet-12",
     title: "Nouveau projet",

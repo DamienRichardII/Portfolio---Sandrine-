@@ -18,7 +18,11 @@ const PROJECTS_CONFIG = [
     bgGradient: "linear-gradient(145deg,#1a0505 0%,#3d1010 40%,#7c1a1a 75%,#b52020 100%)",
     icon: "📚",
     images: [
-      "assets/photos/projects/Master MEC/1.png","assets/photos/projects/Master MEC/2.png",
+      "assets/photos/projects/Master MEC/Expose-CNIL.png",
+      "assets/photos/projects/Master MEC/TD1.png",
+      "assets/photos/projects/Master MEC/TD2.png",
+      "assets/photos/projects/Master MEC/TD3.png",
+      "assets/photos/projects/Master MEC/2.png",
       "assets/photos/projects/Master MEC/18.png","assets/photos/projects/Master MEC/Anne.png",
       "assets/photos/projects/Master MEC/Anne (2).png","assets/photos/projects/Master MEC/Anne (3).png",
       "assets/photos/projects/Master MEC/Anne (4).png","assets/photos/projects/Master MEC/JC.png",
@@ -77,9 +81,11 @@ const PROJECTS_CONFIG = [
     tags: ["Web", "Design", "Digital"],
     tagColor: "gold",
     bgGradient: "linear-gradient(145deg,#1a1400 0%,#2e2200 35%,#4a3800 65%,#f2c200 100%)",
-    icon: "💻",
+    icon: "⚡",
     images: [
-      // ← Glisse tes visuels DamCompany ici
+      "assets/photos/projects/DamCompany/1-cover.png",
+      "assets/photos/projects/DamCompany/Peace-of-Mind.png",
+      "assets/photos/projects/DamCompany/NadMotivation.png",
     ]
   },
 

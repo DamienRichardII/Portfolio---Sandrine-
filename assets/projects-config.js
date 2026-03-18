@@ -45,7 +45,10 @@ const PROJECTS_CONFIG = [
     bgGradient: "linear-gradient(145deg,#0a0a1a 0%,#1a1a3e 40%,#2d2d6e 70%,#f2c811 100%)",
     icon: "📊",
     images: [
-      // ← Glisse tes captures Power BI ici
+      "assets/photos/projects/Power BI/dashboard-france.png",
+      "assets/photos/projects/Power BI/dashboard-us.png",
+      "assets/photos/projects/Power BI/bike-sales-1.png",
+      "assets/photos/projects/Power BI/bike-sales-2.png",
     ]
   },
 

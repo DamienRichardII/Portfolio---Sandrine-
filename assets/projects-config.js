@@ -65,7 +65,6 @@ const PROJECTS_CONFIG = [
       // "assets/photos/projects/poulet-mikat/degustation-privee-poulet-mikat.png",
       // "assets/photos/projects/poulet-mikat/annonce-speciale-poulet-mikat.png",
       "assets/photos/projects/poulet-mikat/nouvelle-carte-poulet-mikat.png",
-      "assets/photos/projects/poulet-mikat/nouvelle-carte-poulet-mikat.pdf",
     ]
   },
 

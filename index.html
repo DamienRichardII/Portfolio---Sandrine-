@@ -626,7 +626,7 @@ function buildProjects() {
       '<div class="pc-bg" style="' + bgStyle + '"></div>' +
       (hasPhotos ? '<div class="pc-color-overlay" style="background:' + proj.bgGradient + ';"></div>' : '') +
       '<div class="pc-shine"></div>' +
-      (hasPhotos ? '<div class="pc-open-btn">🖼 Voir ' + proj.images.length + ' photo' + (proj.images.length>1?'s':'') + '</div>' : '') +
+      (hasPhotos ? '<div class="pc-open-btn">🖼 <span data-i18n="proj.open.btn">Voir les médias</span></div>' : '') +
       (hasPhotos ? '<div class="pc-img-count">📸 ' + proj.images.length + '</div>' : '') +
       '<div class="pc-overlay">' +
         '<div class="pc-tags">' + tagHTML + '</div>' +
@@ -753,7 +753,8 @@ function renderGallery() {
     pdfLabel.textContent = curLang === 'en' ? 'View menu' : 'Voir la carte';
     var pdfHint = document.createElement('div');
     pdfHint.className = 'gallery-pdf-hint';
-    pdfHint.textContent = '↗ Ouvrir dans un nouvel onglet';
+    pdfHint.setAttribute('data-i18n', 'gallery.pdf.hint');
+    pdfHint.textContent = curLang === 'en' ? '↗ Open in a new tab' : '↗ Ouvrir dans un nouvel onglet';
     pdfCard.appendChild(pdfIcon);
     pdfCard.appendChild(pdfLabel);
     pdfCard.appendChild(pdfHint);
@@ -966,6 +967,9 @@ var I18N = {
     'exp.maya.role': 'Vendeuse et gérante stagiaire',
 
     'gallery.pdf.label': 'Voir la carte',
+    'gallery.pdf.hint':  '↗ Ouvrir dans un nouvel onglet',
+
+    'proj.open.btn': 'Voir les médias',
   },
   en: {
     'nav.home':       'Home',
@@ -1006,6 +1010,9 @@ var I18N = {
     'exp.maya.role': 'Seller and Manager Intern',
 
     'gallery.pdf.label': 'View menu',
+    'gallery.pdf.hint':  '↗ Open in a new tab',
+
+    'proj.open.btn': 'View media',
 
     'contact.label': '✦ Contact',
     'contact.title': 'Let\'s work together',

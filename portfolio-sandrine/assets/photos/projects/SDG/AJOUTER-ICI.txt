@@ -1,2 +1,0 @@
-📸 Glisse tes photos dans ce dossier
-Puis mets à jour le fichier assets/projects-config.js

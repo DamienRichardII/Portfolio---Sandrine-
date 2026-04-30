@@ -3,6 +3,9 @@
  * 1. Glisse tes photos dans le dossier du projet concerné
  * 2. Ajoute le nom du fichier dans le tableau "images" ici
  * 3. Sauvegarde + recharge le navigateur
+ *
+ * Pour les vidéos : utilise un chemin .mp4 dans le tableau images.
+ * La galerie détecte automatiquement et affiche un lecteur vidéo.
  */
 
 const PROJECTS_CONFIG = [
@@ -22,15 +25,6 @@ const PROJECTS_CONFIG = [
       "assets/photos/projects/Master MEC/TD1.png",
       "assets/photos/projects/Master MEC/TD2.png",
       "assets/photos/projects/Master MEC/TD3.png",
-      "assets/photos/projects/Master MEC/2.png",
-      "assets/photos/projects/Master MEC/18.png","assets/photos/projects/Master MEC/Anne.png",
-      "assets/photos/projects/Master MEC/Anne (2).png","assets/photos/projects/Master MEC/Anne (3).png",
-      "assets/photos/projects/Master MEC/Anne (4).png","assets/photos/projects/Master MEC/JC.png",
-      "assets/photos/projects/Master MEC/JC (2).png","assets/photos/projects/Master MEC/JC (3).png",
-      "assets/photos/projects/Master MEC/JC (4).png","assets/photos/projects/Master MEC/JC (5).png",
-      "assets/photos/projects/Master MEC/JC (6).png","assets/photos/projects/Master MEC/JC (7).png",
-      "assets/photos/projects/Master MEC/Sandrine.png","assets/photos/projects/Master MEC/Sandrine (2).png",
-      "assets/photos/projects/Master MEC/Sandrine (3).png","assets/photos/projects/Master MEC/Sandrine (4).png",
     ]
   },
 
@@ -66,12 +60,6 @@ const PROJECTS_CONFIG = [
       "assets/photos/projects/poulet-mikat/1.png",
       "assets/photos/projects/poulet-mikat/02-charte.png",
       "assets/photos/projects/poulet-mikat/2.png",
-      "assets/photos/projects/poulet-mikat/3.png",
-      "assets/photos/projects/poulet-mikat/4.png",
-      "assets/photos/projects/poulet-mikat/5.png",
-      "assets/photos/projects/poulet-mikat/6.png",
-      "assets/photos/projects/poulet-mikat/7.jpeg",
-      "assets/photos/projects/poulet-mikat/8.jpeg",
     ]
   },
 
@@ -89,6 +77,10 @@ const PROJECTS_CONFIG = [
       "assets/photos/projects/DamCompany/1-cover.png",
       "assets/photos/projects/DamCompany/Peace-of-Mind.png",
       "assets/photos/projects/DamCompany/NadMotivation.png",
+      "assets/videos/damcompany/damcompany-realisation-01.mp4",
+      "assets/videos/damcompany/damcompany-realisation-02.mp4",
+      "assets/videos/damcompany/damcompany-realisation-03.mp4",
+      "assets/videos/damcompany/damcompany-realisation-04.mp4",
     ]
   },
 
@@ -232,4 +224,4 @@ const PROJECTS_CONFIG = [
 
 ];
 
-const PROFILE_PHOTO = "assets/photos/profile/sandrine.jpg";
+const PROFILE_PHOTO = "assets/photos/profile/sandrine-portrait-pro.jpeg";

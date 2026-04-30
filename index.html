@@ -361,7 +361,7 @@
   <button class="lang-btn" id="btn-en" onclick="setLang('en')" aria-pressed="false">ENG</button>
 </div>
 
-<div id="gallery-modal" role="dialog" aria-modal="true" aria-label="Galerie projet">
+<div id="gallery-modal" role="dialog" aria-modal="true" aria-label="Galerie projet" data-i18n-aria="gallery.ariaLabel">
   <div class="gallery-backdrop" id="gallery-backdrop"></div>
   <div class="gallery-box">
     <div class="gallery-header">
@@ -369,12 +369,12 @@
         <div class="gallery-project-name" id="gal-name"></div>
         <div class="gallery-project-sub" id="gal-sub"></div>
       </div>
-      <div class="gallery-close" id="gallery-close" title="Fermer (Échap)">✕</div>
+      <div class="gallery-close" id="gallery-close" title="Fermer (Échap)" data-i18n-title="gallery.close">✕</div>
     </div>
     <div class="gallery-main" id="gallery-main">
-      <img id="gallery-main-img" class="gallery-main-img" alt="Photo du projet" src="">
-      <button class="gallery-arrow prev" id="gal-prev" title="Photo précédente">‹</button>
-      <button class="gallery-arrow next" id="gal-next" title="Photo suivante">›</button>
+      <img id="gallery-main-img" class="gallery-main-img" alt="Photo du projet" data-i18n-alt="gallery.photoAlt" src="">
+      <button class="gallery-arrow prev" id="gal-prev" title="Photo précédente" data-i18n-title="gallery.prev">‹</button>
+      <button class="gallery-arrow next" id="gal-next" title="Photo suivante" data-i18n-title="gallery.next">›</button>
       <div class="gallery-counter" id="gal-counter">1 / 1</div>
     </div>
     <div class="gallery-thumbs" id="gallery-thumbs"></div>
@@ -413,16 +413,16 @@
           <span class="tag gold-tag">🏰 Disney lover</span>
           <span class="tag">Community Management</span>
           <span class="tag">Branding & Design</span>
-          <span class="tag">Marketing digital</span>
+          <span class="tag" data-i18n="about.tag.mm-digital">Marketing digital</span>
           <span class="tag">Canva</span>
           <span class="tag">RSE</span>
-          <span class="tag">Expérience client</span>
+          <span class="tag" data-i18n="about.tag.exp-client">Expérience client</span>
           <span class="tag">Storytelling</span>
         </div>
         <div class="stats-row">
-          <div class="stat"><div class="stat-n">12+</div><div class="stat-l">Projets créatifs</div></div>
-          <div class="stat"><div class="stat-n">3+</div><div class="stat-l">Ans d'expérience</div></div>
-          <div class="stat"><div class="stat-n">M2</div><div class="stat-l">Niveau d'études</div></div>
+          <div class="stat"><div class="stat-n">12+</div><div class="stat-l" data-i18n="about.stat1">Projets créatifs</div></div>
+          <div class="stat"><div class="stat-n">3+</div><div class="stat-l" data-i18n="about.stat2">Ans d'expérience</div></div>
+          <div class="stat"><div class="stat-n">M2</div><div class="stat-l" data-i18n="about.stat3">Niveau d'études</div></div>
         </div>
       </div>
     </div>
@@ -436,37 +436,37 @@
   <section class="section" id="experience">
     <div class="rev"><p class="s-label" data-i18n="exp.label">✦ Parcours professionnel</p><h2 class="s-title" data-i18n="exp.title">Expériences Professionnelles</h2></div>
     <div class="timeline">
-      <div class="ti rev" style="transition-delay:.05s"><div class="ti-dot"></div><div class="ti-card"><div class="ti-date">Septembre 2023 — Aujourd'hui · Alternance</div><div class="ti-company">Action contre la Faim — Montreuil</div><div class="ti-role">Assistante collecte 360 — Marketing direct</div><div class="ti-points"><div class="ti-pt">Gestion canal télémarketing : lancement et suivi de campagnes, scripts, guide d'objections</div><div class="ti-pt">Canal mailing : gestion campagnes print, briefs, vérification BAT/BAR</div><div class="ti-pt">Gestion financière : réalisation de DA, bons de commande, suivi budgétaire</div><div class="ti-pt">Refonte Welcome Pack, formation des équipes prestataires, statistiques hebdomadaires</div><div class="ti-pt">Outils : PowerPoint, Excel, Canva, UBW, Word</div></div></div></div>
-      <div class="ti rev" style="transition-delay:.1s"><div class="ti-dot"></div><div class="ti-card"><div class="ti-date">Juin — Août 2023</div><div class="ti-company">VTCSR — Roissy-en-Brie</div><div class="ti-role">Responsable administrative et communication</div><div class="ti-points"><div class="ti-pt">Création d'une maquette de site web et cartes de visite</div><div class="ti-pt">Gestion comptabilité, planning, démarchage et liaison bancaire</div><div class="ti-pt">Outils : Editor X, Canva, Excel, plateformes VTC</div></div></div></div>
-      <div class="ti rev" style="transition-delay:.15s"><div class="ti-dot"></div><div class="ti-card"><div class="ti-date">Août 2022 · Stage</div><div class="ti-company">HU Paris Sud — APHP Kremlin-Bicêtre</div><div class="ti-role">Assistante administrative</div><div class="ti-points"><div class="ti-pt">Gestion administrative : envoi et réception de courriers</div><div class="ti-pt">Gestion des dossiers patients via Orbis, Excel et Word</div></div></div></div>
-      <div class="ti rev" style="transition-delay:.2s"><div class="ti-dot"></div><div class="ti-card"><div class="ti-date">Juin — Juillet 2022 · Stage</div><div class="ti-company">BioTech USA — Claye-Souilly</div><div class="ti-role">Vendeuse polyvalente stagiaire</div><div class="ti-points"><div class="ti-pt">Conseil client, merchandising, facing, gestion de caisse</div><div class="ti-pt">Gestion inventaire, commandes et livraisons (Point relais UPS)</div></div></div></div>
-      <div class="ti rev" style="transition-delay:.25s"><div class="ti-dot"></div><div class="ti-card"><div class="ti-date">Juin 2019 · Stage de découverte</div><div class="ti-company">Maya Desmarques — Villejuif</div><div class="ti-role">Vendeuse et gérante stagiaire</div><div class="ti-points"><div class="ti-pt">Découverte du métier de gérante (écoute, organisation, persévérance)</div><div class="ti-pt">Conseil client, travail avec les partenaires, gestion des stocks</div></div></div></div>
+      <div class="ti rev" style="transition-delay:.05s"><div class="ti-dot"></div><div class="ti-card"><div class="ti-date" data-i18n="exp.1.date">Septembre 2023 — Aujourd'hui · Alternance</div><div class="ti-company">Action contre la Faim — Montreuil</div><div class="ti-role" data-i18n="exp.1.role">Assistante collecte 360 — Marketing direct</div><div class="ti-points"><div class="ti-pt" data-i18n="exp.1.pt1">Gestion canal télémarketing : lancement et suivi de campagnes, scripts, guide d'objections</div><div class="ti-pt" data-i18n="exp.1.pt2">Canal mailing : gestion campagnes print, briefs, vérification BAT/BAR</div><div class="ti-pt" data-i18n="exp.1.pt3">Gestion financière : réalisation de DA, bons de commande, suivi budgétaire</div><div class="ti-pt" data-i18n="exp.1.pt4">Refonte Welcome Pack, formation des équipes prestataires, statistiques hebdomadaires</div><div class="ti-pt" data-i18n="exp.1.pt5">Outils : PowerPoint, Excel, Canva, UBW, Word</div></div></div></div>
+      <div class="ti rev" style="transition-delay:.1s"><div class="ti-dot"></div><div class="ti-card"><div class="ti-date" data-i18n="exp.2.date">Juin — Août 2023</div><div class="ti-company">VTCSR — Roissy-en-Brie</div><div class="ti-role" data-i18n="exp.2.role">Responsable administrative et communication</div><div class="ti-points"><div class="ti-pt" data-i18n="exp.2.pt1">Création d'une maquette de site web et cartes de visite</div><div class="ti-pt" data-i18n="exp.2.pt2">Gestion comptabilité, planning, démarchage et liaison bancaire</div><div class="ti-pt" data-i18n="exp.2.pt3">Outils : Editor X, Canva, Excel, plateformes VTC</div></div></div></div>
+      <div class="ti rev" style="transition-delay:.15s"><div class="ti-dot"></div><div class="ti-card"><div class="ti-date" data-i18n="exp.3.date">Août 2022 · Stage</div><div class="ti-company">HU Paris Sud — APHP Kremlin-Bicêtre</div><div class="ti-role" data-i18n="exp.3.role">Assistante administrative</div><div class="ti-points"><div class="ti-pt" data-i18n="exp.3.pt1">Gestion administrative : envoi et réception de courriers</div><div class="ti-pt" data-i18n="exp.3.pt2">Gestion des dossiers patients via Orbis, Excel et Word</div></div></div></div>
+      <div class="ti rev" style="transition-delay:.2s"><div class="ti-dot"></div><div class="ti-card"><div class="ti-date" data-i18n="exp.4.date">Juin — Juillet 2022 · Stage</div><div class="ti-company">BioTech USA — Claye-Souilly</div><div class="ti-role" data-i18n="exp.4.role">Vendeuse polyvalente stagiaire</div><div class="ti-points"><div class="ti-pt" data-i18n="exp.4.pt1">Conseil client, merchandising, facing, gestion de caisse</div><div class="ti-pt" data-i18n="exp.4.pt2">Gestion inventaire, commandes et livraisons (Point relais UPS)</div></div></div></div>
+      <div class="ti rev" style="transition-delay:.25s"><div class="ti-dot"></div><div class="ti-card"><div class="ti-date" data-i18n="exp.5.date">Juin 2019 · Stage de découverte</div><div class="ti-company">Maya Desmarques — Villejuif</div><div class="ti-role" data-i18n="exp.5.role">Vendeuse et gérante stagiaire</div><div class="ti-points"><div class="ti-pt" data-i18n="exp.5.pt1">Découverte du métier de gérante (écoute, organisation, persévérance)</div><div class="ti-pt" data-i18n="exp.5.pt2">Conseil client, travail avec les partenaires, gestion des stocks</div></div></div></div>
     </div>
   </section>
 
   <section class="section" id="skills">
     <div class="rev"><p class="s-label" data-i18n="skills.label">✦ Savoir-faire</p><h2 class="s-title" data-i18n="skills.title">Outils & Compétences</h2></div>
     <div class="skills-grid">
-      <div class="sk-card rev" style="transition-delay:.05s"><div class="sk-head"><div class="sk-icon">🎨</div><div class="sk-name">Création & Design graphique</div></div><div class="sk-pills"><span class="pill g">Canva</span><span class="pill">Adobe Express</span><span class="pill">Editor X</span><span class="pill">WordPress</span><span class="pill">Charte graphique</span><span class="pill">Identité visuelle</span><span class="pill">Supports print</span></div></div>
-      <div class="sk-card rev" style="transition-delay:.1s"><div class="sk-head"><div class="sk-icon">📱</div><div class="sk-name">Marketing & Communication</div></div><div class="sk-pills"><span class="pill g">Community Management</span><span class="pill">Marketing digital</span><span class="pill">Marketing direct</span><span class="pill">Social Media</span><span class="pill">Branding</span><span class="pill">Storytelling</span><span class="pill">RSE</span><span class="pill">Expérience client</span></div></div>
-      <div class="sk-card rev" style="transition-delay:.15s"><div class="sk-head"><div class="sk-icon">💼</div><div class="sk-name">Outils bureautiques</div></div><div class="sk-pills"><span class="pill g">Excel</span><span class="pill g">PowerPoint</span><span class="pill">Word</span><span class="pill">UBW</span><span class="pill b">Power BI</span><span class="pill">Gestion budgétaire</span><span class="pill">Pack Office</span></div></div>
-      <div class="sk-card rev" style="transition-delay:.2s"><div class="sk-head"><div class="sk-icon">🌍</div><div class="sk-name">Langues & soft skills</div></div><div class="sk-pills"><span class="pill g">Français — Natif</span><span class="pill b" data-i18n="skills.lang.en">Anglais — C1</span><span class="pill"> TOIEC - 965/990 </span><span class="pill">Espagnol — Intermédiaire</span><span class="pill">Communication orale</span><span class="pill">Résolution de problèmes</span><span class="pill">Gestion de projet</span></div></div>
+      <div class="sk-card rev" style="transition-delay:.05s"><div class="sk-head"><div class="sk-icon">🎨</div><div class="sk-name" data-i18n="skills.card1">Création & Design graphique</div></div><div class="sk-pills"><span class="pill g">Canva</span><span class="pill">Adobe Express</span><span class="pill">Editor X</span><span class="pill">WordPress</span><span class="pill" data-i18n="skills.pill.charte">Charte graphique</span><span class="pill" data-i18n="skills.pill.identite">Identité visuelle</span><span class="pill" data-i18n="skills.pill.print">Supports print</span></div></div>
+      <div class="sk-card rev" style="transition-delay:.1s"><div class="sk-head"><div class="sk-icon">📱</div><div class="sk-name" data-i18n="skills.card2">Marketing & Communication</div></div><div class="sk-pills"><span class="pill g">Community Management</span><span class="pill" data-i18n="skills.pill.mm">Marketing digital</span><span class="pill" data-i18n="skills.pill.md">Marketing direct</span><span class="pill">Social Media</span><span class="pill">Branding</span><span class="pill">Storytelling</span><span class="pill">RSE</span><span class="pill" data-i18n="skills.pill.ec">Expérience client</span></div></div>
+      <div class="sk-card rev" style="transition-delay:.15s"><div class="sk-head"><div class="sk-icon">💼</div><div class="sk-name" data-i18n="skills.card3">Outils bureautiques</div></div><div class="sk-pills"><span class="pill g">Excel</span><span class="pill g">PowerPoint</span><span class="pill">Word</span><span class="pill">UBW</span><span class="pill b">Power BI</span><span class="pill" data-i18n="skills.pill.budget">Gestion budgétaire</span><span class="pill">Pack Office</span></div></div>
+      <div class="sk-card rev" style="transition-delay:.2s"><div class="sk-head"><div class="sk-icon">🌍</div><div class="sk-name" data-i18n="skills.card4">Langues & soft skills</div></div><div class="sk-pills"><span class="pill g" data-i18n="skills.lang.fr">Français — Natif</span><span class="pill b" data-i18n="skills.lang.en">Anglais — C1</span><span class="pill"> TOIEC - 965/990 </span><span class="pill" data-i18n="skills.lang.es">Espagnol — Intermédiaire</span><span class="pill" data-i18n="skills.soft.oral">Communication orale</span><span class="pill" data-i18n="skills.soft.pb">Résolution de problèmes</span><span class="pill" data-i18n="skills.soft.pm">Gestion de projet</span></div></div>
     </div>
   </section>
 
   <section class="section" id="education">
     <div class="rev"><p class="s-label" data-i18n="edu.label">✦ Formation</p><h2 class="s-title" data-i18n="edu.title">Parcours académique</h2></div>
     <div class="edu-grid">
-      <div class="edu-card rev" style="transition-delay:.05s"><div class="edu-yr">2024 → 2026 · En cours</div><div class="edu-school">EMLV — Courbevoie</div><div class="edu-dip">Master Marketing & Expérience Client</div><div class="edu-detail">Marketing produits & services, innovation, design thinking, leviers marketing, stratégie omnicanale, négociations, management du retail, business ethics.</div><div class="edu-badge">✦ Master 2</div></div>
-      <div class="edu-card rev" style="transition-delay:.1s"><div class="edu-yr">2021 → 2024 · Diplômée</div><div class="edu-school">ESI Business School</div><div class="edu-dip">Bachelor Green, Social & Digital Business</div><div class="edu-detail">Boulogne-Billancourt. Marketing opérationnel, management, RSE. Projets de groupe avec soutenances orales récurrentes.</div><div class="edu-badge">✦ Bac +3 obtenu</div></div>
-      <div class="edu-card rev" style="transition-delay:.15s"><div class="edu-yr">2006 → 2021 · Diplômée</div><div class="edu-school">Notre-Dame de France — Paris XIII</div><div class="edu-dip">Baccalauréat Général</div><div class="edu-detail">Spécialités : humanités, SES, LLCER. Voyages linguistiques en Angleterre et en Espagne.</div><div class="edu-badge">🏆 Mention Bien</div></div>
+      <div class="edu-card rev" style="transition-delay:.05s"><div class="edu-yr" data-i18n="edu.card1.yr">2024 → 2026 · En cours</div><div class="edu-school">EMLV — Courbevoie</div><div class="edu-dip" data-i18n="edu.card1.dip">Master Marketing & Expérience Client</div><div class="edu-detail" data-i18n="edu.card1.detail">Marketing produits & services, innovation, design thinking, leviers marketing, stratégie omnicanale, négociations, management du retail, business ethics.</div><div class="edu-badge" data-i18n="edu.card1.badge">✦ Master 2</div></div>
+      <div class="edu-card rev" style="transition-delay:.1s"><div class="edu-yr" data-i18n="edu.card2.yr">2021 → 2024 · Diplômée</div><div class="edu-school">ESI Business School</div><div class="edu-dip" data-i18n="edu.card2.dip">Bachelor Green, Social & Digital Business</div><div class="edu-detail" data-i18n="edu.card2.detail">Boulogne-Billancourt. Marketing opérationnel, management, RSE. Projets de groupe avec soutenances orales récurrentes.</div><div class="edu-badge" data-i18n="edu.card2.badge">✦ Bac +3 obtenu</div></div>
+      <div class="edu-card rev" style="transition-delay:.15s"><div class="edu-yr" data-i18n="edu.card3.yr">2006 → 2021 · Diplômée</div><div class="edu-school">Notre-Dame de France — Paris XIII</div><div class="edu-dip" data-i18n="edu.card3.dip">Baccalauréat Général</div><div class="edu-detail" data-i18n="edu.card3.detail">Spécialités : humanités, SES, LLCER. Voyages linguistiques en Angleterre et en Espagne.</div><div class="edu-badge" data-i18n="edu.card3.badge">🏆 Mention Bien</div></div>
     </div>
     <div style="margin-top:48px;" class="rev">
       <p class="s-label" style="margin-bottom:20px;" data-i18n="vol.label">✦ Engagement bénévole</p>
       <div class="vol-row">
-        <div class="vol-chip">❤️ Maraudes</div>
-        <div class="vol-chip">🍲 Distribution de repas chauds</div>
-        <div class="vol-chip">✉️ Une lettre, un sourire</div>
+        <div class="vol-chip">❤️ <span data-i18n="vol.chip1">Maraudes</span></div>
+        <div class="vol-chip">🍲 <span data-i18n="vol.chip2">Distribution de repas chauds</span></div>
+        <div class="vol-chip">✉️ <span data-i18n="vol.chip3">Une lettre, un sourire</span></div>
       </div>
     </div>
   </section>
@@ -480,7 +480,7 @@
       <div class="c-items">
         <a href="tel:0782341807" class="c-item"><span>📞</span><span>07 82 34 18 07</span></a>
         <a href="mailto:sandrinekellamnonga@gmail.com" class="c-item"><span>✉️</span><span>sandrinekellamnonga@gmail.com</span></a>
-        <div class="c-item"><span>📍</span><span>  Île-de-France</span></div>
+        <div class="c-item"><span>📍</span><span data-i18n="contact.location">Île-de-France</span></div>
         <a href="https://fr.linkedin.com/in/sandrine-kellam-nonga-72b31923b" target="_blank" class="c-item"><span>🔗</span><span>LinkedIn</span></a>
       </div>
     </div>
@@ -489,12 +489,42 @@
 
 <footer>
   <p class="f-brand">Sandrine Kellam Nonga</p>
-  <p style="margin-top:6px;">Portfolio 2026 · Fait avec créativité  <span class="f-gold">✨</span>  · Master Marketing EMLV</p>
+  <p style="margin-top:6px;" data-i18n-html="footer.text">Portfolio 2026 · Fait avec créativité &nbsp;<span class="f-gold">✨</span>&nbsp; · Master Marketing EMLV</p>
 </footer>
 
 <script>
 (function(){
 'use strict';
+
+/* ── LANGUE COURANTE (partagée avec setLang) ── */
+window.currentLang = window.currentLang || 'fr';
+
+/* ── HELPER i18n inline (pour le JS dynamique) ── */
+function gI(key) {
+  var lang = window.currentLang || 'fr';
+  if (typeof I18N !== 'undefined' && I18N[lang] && I18N[lang][key] !== undefined) {
+    return I18N[lang][key];
+  }
+  /* Fallback French hardcodé si I18N pas encore chargé */
+  var fallbacks = {
+    'gallery.noMedia':    'Aucune photo pour ce projet pour l\'instant.',
+    'gallery.addImages':  'Glisse tes images dans le dossier correspondant :',
+    'gallery.updateFile': 'Puis mets à jour le fichier',
+    'gallery.videoThumb': 'Vidéo ',
+    'gallery.photoThumb': 'Photo ',
+    'gallery.videoUnsupported': 'Votre navigateur ne supporte pas la lecture vidéo.',
+    'proj.openBtn.items': function(n){ return '🖼 Voir ' + n + ' éléments'; },
+    'proj.openBtn.photos':function(n){ return '🖼 Voir ' + n + ' photo' + (n>1?'s':''); },
+    'proj.aria.open':     ' — cliquer pour voir la galerie',
+    'proj.aria.prefix':   'Projet ',
+  };
+  return typeof fallbacks[key] === 'function' ? fallbacks[key] : (fallbacks[key] || key);
+}
+
+/* ── VÉRIFIE SI UN TABLEAU D'IMAGES CONTIENT DES VIDÉOS ── */
+function hasVideos(images) {
+  return images && images.some(function(s){ return /\.mp4(\?|$)/i.test(s); });
+}
 
 /* ══════════════════════════════════════════════
    APPLE EMOJI REPLACEMENT SYSTEM
@@ -579,51 +609,90 @@ var TAG_COLORS = {
 
 /* ══ BUILD PROJECTS GRID ══ */
 function buildProjects() {
+  var lang = window.currentLang || 'fr';
+  var isEN = (lang === 'en');
   var grid = document.getElementById('projects-grid');
   if (!grid || typeof PROJECTS_CONFIG === 'undefined') return;
 
   PROJECTS_CONFIG.forEach(function(proj, i) {
-    var hasPhotos = proj.images && proj.images.length > 0;
+    var hasMedia = proj.images && proj.images.length > 0;
     var delay = (i * 0.07).toFixed(2);
     var tc = TAG_COLORS[proj.tagColor] || TAG_COLORS.silver;
     var isWide = i === 0;
 
+    /* Champs bilingues */
+    var tags = (isEN && proj.tags_en) ? proj.tags_en : proj.tags;
+    var description = (isEN && proj.description_en) ? proj.description_en : proj.description;
+
+    /* Libellé bouton "ouvrir galerie" */
+    var openBtnLabel;
+    if (hasMedia) {
+      var n = proj.images.length;
+      if (hasVideos(proj.images)) {
+        openBtnLabel = isEN
+          ? ('🖼 View ' + n + ' item' + (n>1?'s':''))
+          : ('🖼 Voir ' + n + ' élément' + (n>1?'s':''));
+      } else {
+        openBtnLabel = isEN
+          ? ('🖼 View ' + n + ' photo' + (n>1?'s':''))
+          : ('🖼 Voir ' + n + ' photo' + (n>1?'s':''));
+      }
+    }
+
+    /* Aria-label */
+    var ariaLabel = isEN
+      ? ('Project ' + proj.title + (hasMedia ? ' — click to view gallery' : ''))
+      : ('Projet ' + proj.title + (hasMedia ? ' — cliquer pour voir la galerie' : ''));
+
     var card = document.createElement('div');
-    card.className = 'pc rev' + (isWide ? ' wide' : '') + (hasPhotos ? '' : ' no-photos');
+    card.className = 'pc rev' + (isWide ? ' wide' : '') + (hasMedia ? '' : ' no-photos');
     card.dataset.projectId = proj.id;
     card.style.transitionDelay = delay + 's';
-    card.setAttribute('role', hasPhotos ? 'button' : 'article');
-    card.setAttribute('tabindex', hasPhotos ? '0' : '-1');
-    card.setAttribute('aria-label', 'Projet ' + proj.title + (hasPhotos ? ' — cliquer pour voir la galerie' : ''));
+    card.setAttribute('role', hasMedia ? 'button' : 'article');
+    card.setAttribute('tabindex', hasMedia ? '0' : '-1');
+    card.setAttribute('aria-label', ariaLabel);
 
-    var tagHTML = (proj.tags || []).map(function(t,ti) {
-      return '<span class="pc-tag" style="background:' + (ti===0?tc.bg:'rgba(255,255,255,.1)') + ';border:1px solid ' + (ti===0?tc.border:'rgba(255,255,255,.2)') + ';color:' + (ti===0?tc.text:'#fff') + '">' + t + '</span>';
+    var tagHTML = (tags || []).map(function(tg,ti) {
+      return '<span class="pc-tag" style="background:' + (ti===0?tc.bg:'rgba(255,255,255,.1)') + ';border:1px solid ' + (ti===0?tc.border:'rgba(255,255,255,.2)') + ';color:' + (ti===0?tc.text:'#fff') + '">' + tg + '</span>';
     }).join('');
 
-    var coverImg = hasPhotos ? proj.images[0] : '';
-    var bgStyle = hasPhotos
+    var coverImg = hasMedia ? proj.images[0] : '';
+    var bgStyle = hasMedia
       ? "background-image:url('" + coverImg + "');background-size:cover;background-position:center;"
       : "background:" + proj.bgGradient + ";";
 
     card.innerHTML =
       '<div class="pc-bg" style="' + bgStyle + '"></div>' +
-      (hasPhotos ? '<div class="pc-color-overlay" style="background:' + proj.bgGradient + ';"></div>' : '') +
+      (hasMedia ? '<div class="pc-color-overlay" style="background:' + proj.bgGradient + ';"></div>' : '') +
       '<div class="pc-shine"></div>' +
-      (hasPhotos ? '<div class="pc-open-btn">🖼 Voir ' + proj.images.length + ' photo' + (proj.images.length>1?'s':'') + '</div>' : '') +
-      (hasPhotos ? '<div class="pc-img-count">📸 ' + proj.images.length + '</div>' : '') +
+      (hasMedia ? '<div class="pc-open-btn">' + openBtnLabel + '</div>' : '') +
+      (hasMedia ? '<div class="pc-img-count">📸 ' + proj.images.length + '</div>' : '') +
       '<div class="pc-overlay">' +
         '<div class="pc-tags">' + tagHTML + '</div>' +
         '<div class="pc-title">' + (proj.icon ? proj.icon + ' ' : '') + proj.title + '</div>' +
-        '<div class="pc-desc">' + proj.description + '</div>' +
+        '<div class="pc-desc">' + description + '</div>' +
       '</div>';
 
-    if (hasPhotos) {
+    if (hasMedia) {
       card.addEventListener('click', function(){ openGallery(proj); });
       card.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' ') openGallery(proj); });
     }
     grid.appendChild(card);
   });
 }
+
+/* Expose globalement pour setLang */
+window.rebuildProjects = function(lang) {
+  window.currentLang = lang;
+  var grid = document.getElementById('projects-grid');
+  if (grid) grid.innerHTML = '';
+  buildProjects();
+  /* Ré-observer les nouvelles cartes pour le scroll-reveal */
+  document.querySelectorAll('.pc').forEach(function(el){ ro.observe(el); });
+  /* Ré-appliquer les emojis Apple sur les nouvelles cartes */
+  replaceEmojis(grid);
+};
+
 buildProjects();
 
 /* ══ PROFILE PHOTO ══ */
@@ -659,10 +728,11 @@ var counter  = document.getElementById('gal-counter');
 var galMain  = document.getElementById('gallery-main');
 
 function openGallery(proj) {
+  var lang = window.currentLang || 'fr';
   galState.images  = proj.images;
   galState.current = 0;
   galName.textContent = (proj.icon ? proj.icon + ' ' : '') + proj.title;
-  galSub.textContent  = proj.subtitle;
+  galSub.textContent  = (lang === 'en' && proj.subtitle_en) ? proj.subtitle_en : proj.subtitle;
   replaceEmojis(galName);
   renderGallery();
   modal.classList.add('open');
@@ -691,13 +761,20 @@ function renderGallery() {
   var existingVid = galMain.querySelector('.gallery-video');
   if (existingVid) existingVid.remove();
 
+  var lang2 = window.currentLang || 'fr';
+  var isEN2 = (lang2 === 'en');
+
   if (!imgs || imgs.length === 0) {
     mainImg.style.display = 'none';
     prevBtn.style.display = nextBtn.style.display = 'none';
     counter.style.display = 'none';
     var emptyEl = document.createElement('div');
     emptyEl.className = 'gallery-empty';
-    emptyEl.innerHTML = '<div class="big-icon">🖼️</div><p>Aucune photo pour ce projet pour l\'instant.<br>Glisse tes images dans le dossier correspondant :<br><code>assets/photos/projects/' + galName.textContent.replace(/[^\w-]/g,'').toLowerCase() + '/</code></p><p style="margin-top:8px;font-size:13px;opacity:.6">Puis mets à jour le fichier <code>assets/projects-config.js</code></p>';
+    var noMediaTxt   = isEN2 ? 'No media available for this project yet.' : 'Aucune photo pour ce projet pour l\'instant.';
+    var addImgsTxt   = isEN2 ? 'Add your images to the corresponding folder:' : 'Glisse tes images dans le dossier correspondant :';
+    var updateFileTxt= isEN2 ? 'Then update the file' : 'Puis mets à jour le fichier';
+    var folderSlug   = galName.textContent.replace(/[^\w-]/g,'').toLowerCase();
+    emptyEl.innerHTML = '<div class="big-icon">🖼️</div><p>' + noMediaTxt + '<br>' + addImgsTxt + '<br><code>assets/photos/projects/' + folderSlug + '/</code></p><p style="margin-top:8px;font-size:13px;opacity:.6">' + updateFileTxt + ' <code>assets/projects-config.js</code></p>';
     galMain.appendChild(emptyEl);
     replaceEmojis(emptyEl);
     thumbsEl.innerHTML = '';
@@ -724,7 +801,7 @@ function renderGallery() {
     source.src = src;
     source.type = 'video/mp4';
     vid.appendChild(source);
-    var noSupport = document.createTextNode('Votre navigateur ne supporte pas la lecture vidéo.');
+    var noSupport = document.createTextNode(isEN2 ? 'Your browser does not support video playback.' : 'Votre navigateur ne supporte pas la lecture vidéo.');
     vid.appendChild(noSupport);
     /* Insert before arrows */
     galMain.insertBefore(vid, prevBtn);
@@ -742,7 +819,7 @@ function renderGallery() {
   imgs.forEach(function(s, i) {
     var th = document.createElement('div');
     th.className = 'g-thumb' + (i === cur ? ' active' : '');
-    th.title = (isVideo(s) ? 'Vidéo ' : 'Photo ') + (i+1);
+    th.title = (isVideo(s) ? (isEN2 ? 'Video ' : 'Vidéo ') : (isEN2 ? 'Photo ' : 'Photo ')) + (i+1);
     if (isVideo(s)) {
       /* Video thumb: show play icon overlay */
       th.style.cssText = 'position:relative;display:flex;align-items:center;justify-content:center;background:#111;flex-shrink:0;width:80px;height:60px;border-radius:10px;overflow:hidden;cursor:none;border:2px solid ' + (i===cur?'var(--gold)':'rgba(255,255,255,.1)') + ';';
@@ -857,6 +934,9 @@ function offTilt(){ this.style.transform=''; this.removeEventListener('mousemove
 /* ══ APPLY APPLE EMOJIS ══ */
 replaceEmojis(document.body);
 
+/* ══ EXPOSE pour setLang ══ */
+window.replaceEmojis = replaceEmojis;
+
 })();
 </script>
 
@@ -864,10 +944,14 @@ replaceEmojis(document.body);
 /* ══════════════════════════════════════════════
    SYSTÈME I18N — FR / ENG
    Utilise data-i18n="clé" (textContent)
-   et data-i18n-html="clé" (innerHTML)
+       data-i18n-html="clé" (innerHTML)
+       data-i18n-title="clé" (title attr)
+       data-i18n-alt="clé" (alt attr)
+       data-i18n-aria="clé" (aria-label attr)
 ══════════════════════════════════════════════ */
 var I18N = {
   fr: {
+    /* ── Navigation ── */
     'nav.home':       'Accueil',
     'nav.about':      'À propos',
     'nav.projects':   'Projets',
@@ -875,73 +959,247 @@ var I18N = {
     'nav.skills':     'Compétences',
     'nav.contact':    'Contact',
 
+    /* ── Hero ── */
     'hero.badge':   'Community Manager · Marketing · Expérience Client',
     'hero.sub':     'Master Marketing & Expérience Client · EMLV Paris La Défense',
     'hero.tagline': 'Passionnée de voyage · Mode · Maquillage · Disney',
     'hero.cta1':    '✦ Découvrir mes projets',
     'hero.cta2':    'Me contacter →',
 
+    /* ── About ── */
     'about.label': '✦ Qui suis-je',
     'about.title': 'Créative, ambitieuse, passionnée',
     'about.p1':    'Diplômée bac +3 de l\'<strong>ESI Business School</strong> (Green, Social & Digital Business), je poursuis actuellement un Master <strong>Marketing & Expérience Client</strong> à l\'EMLV.',
     'about.p2':    'Intéressée par l\'univers de la <strong>communication et du marketing</strong>, je crois qu\'une marque mérite d\'être racontée comme une histoire : avec soin, cohérence et émotion. Du branding au social media, en passant par le marketing direct, je mets cette philosophie au service de chaque projet.',
+    'about.tag.mm-digital': 'Marketing digital',
+    'about.tag.exp-client': 'Expérience client',
+    'about.stat1': 'Projets créatifs',
+    'about.stat2': 'Ans d\'expérience',
+    'about.stat3': 'Niveau d\'études',
 
+    /* ── Projects ── */
     'projects.label': '✦ Réalisations',
     'projects.title': 'Projets créatifs',
 
+    /* ── Experience ── */
     'exp.label': '✦ Parcours professionnel',
     'exp.title': 'Expériences Professionnelles',
+    'exp.1.date': 'Septembre 2023 — Aujourd\'hui · Alternance',
+    'exp.1.role': 'Assistante collecte 360 — Marketing direct',
+    'exp.1.pt1':  'Gestion canal télémarketing : lancement et suivi de campagnes, scripts, guide d\'objections',
+    'exp.1.pt2':  'Canal mailing : gestion campagnes print, briefs, vérification BAT/BAR',
+    'exp.1.pt3':  'Gestion financière : réalisation de DA, bons de commande, suivi budgétaire',
+    'exp.1.pt4':  'Refonte Welcome Pack, formation des équipes prestataires, statistiques hebdomadaires',
+    'exp.1.pt5':  'Outils : PowerPoint, Excel, Canva, UBW, Word',
+    'exp.2.date': 'Juin — Août 2023',
+    'exp.2.role': 'Responsable administrative et communication',
+    'exp.2.pt1':  'Création d\'une maquette de site web et cartes de visite',
+    'exp.2.pt2':  'Gestion comptabilité, planning, démarchage et liaison bancaire',
+    'exp.2.pt3':  'Outils : Editor X, Canva, Excel, plateformes VTC',
+    'exp.3.date': 'Août 2022 · Stage',
+    'exp.3.role': 'Assistante administrative',
+    'exp.3.pt1':  'Gestion administrative : envoi et réception de courriers',
+    'exp.3.pt2':  'Gestion des dossiers patients via Orbis, Excel et Word',
+    'exp.4.date': 'Juin — Juillet 2022 · Stage',
+    'exp.4.role': 'Vendeuse polyvalente stagiaire',
+    'exp.4.pt1':  'Conseil client, merchandising, facing, gestion de caisse',
+    'exp.4.pt2':  'Gestion inventaire, commandes et livraisons (Point relais UPS)',
+    'exp.5.date': 'Juin 2019 · Stage de découverte',
+    'exp.5.role': 'Vendeuse et gérante stagiaire',
+    'exp.5.pt1':  'Découverte du métier de gérante (écoute, organisation, persévérance)',
+    'exp.5.pt2':  'Conseil client, travail avec les partenaires, gestion des stocks',
 
-    'skills.label':   '✦ Savoir-faire',
-    'skills.title':   'Outils & Compétences',
-    'skills.lang.en': 'Anglais — C1',
+    /* ── Skills ── */
+    'skills.label':         '✦ Savoir-faire',
+    'skills.title':         'Outils & Compétences',
+    'skills.card1':         'Création & Design graphique',
+    'skills.card2':         'Marketing & Communication',
+    'skills.card3':         'Outils bureautiques',
+    'skills.card4':         'Langues & soft skills',
+    'skills.pill.charte':   'Charte graphique',
+    'skills.pill.identite': 'Identité visuelle',
+    'skills.pill.print':    'Supports print',
+    'skills.pill.mm':       'Marketing digital',
+    'skills.pill.md':       'Marketing direct',
+    'skills.pill.ec':       'Expérience client',
+    'skills.pill.budget':   'Gestion budgétaire',
+    'skills.lang.fr':       'Français — Natif',
+    'skills.lang.en':       'Anglais — C1',
+    'skills.lang.es':       'Espagnol — Intermédiaire',
+    'skills.soft.oral':     'Communication orale',
+    'skills.soft.pb':       'Résolution de problèmes',
+    'skills.soft.pm':       'Gestion de projet',
 
+    /* ── Education ── */
     'edu.label': '✦ Formation',
     'edu.title': 'Parcours académique',
-    'vol.label': '✦ Engagement bénévole',
+    'edu.card1.yr':     '2024 → 2026 · En cours',
+    'edu.card1.dip':    'Master Marketing & Expérience Client',
+    'edu.card1.detail': 'Marketing produits & services, innovation, design thinking, leviers marketing, stratégie omnicanale, négociations, management du retail, business ethics.',
+    'edu.card1.badge':  '✦ Master 2',
+    'edu.card2.yr':     '2021 → 2024 · Diplômée',
+    'edu.card2.dip':    'Bachelor Green, Social & Digital Business',
+    'edu.card2.detail': 'Boulogne-Billancourt. Marketing opérationnel, management, RSE. Projets de groupe avec soutenances orales récurrentes.',
+    'edu.card2.badge':  '✦ Bac +3 obtenu',
+    'edu.card3.yr':     '2006 → 2021 · Diplômée',
+    'edu.card3.dip':    'Baccalauréat Général',
+    'edu.card3.detail': 'Spécialités : humanités, SES, LLCER. Voyages linguistiques en Angleterre et en Espagne.',
+    'edu.card3.badge':  '🏆 Mention Bien',
 
-    'contact.label': '✦ Contact',
-    'contact.title': 'Travaillons ensemble',
-    'contact.h3':    'Contacte-moi !',
-    'contact.sub':   'Étudiante en Master Marketing & Expérience Client à l\'EMLV, prête à apporter ma créativité et ma passion à votre équipe ✨',
+    /* ── Volunteer ── */
+    'vol.label':  '✦ Engagement bénévole',
+    'vol.chip1':  'Maraudes',
+    'vol.chip2':  'Distribution de repas chauds',
+    'vol.chip3':  'Une lettre, un sourire',
+
+    /* ── Contact ── */
+    'contact.label':    '✦ Contact',
+    'contact.title':    'Travaillons ensemble',
+    'contact.h3':       'Contacte-moi !',
+    'contact.sub':      'Étudiante en Master Marketing & Expérience Client à l\'EMLV, prête à apporter ma créativité et ma passion à votre équipe ✨',
+    'contact.location': 'Île-de-France',
+
+    /* ── Footer ── */
+    'footer.text': 'Portfolio 2026 · Fait avec créativité &nbsp;<span class="f-gold">✨</span>&nbsp; · Master Marketing EMLV',
+
+    /* ── Gallery UI ── */
+    'gallery.ariaLabel':       'Galerie projet',
+    'gallery.close':           'Fermer (Échap)',
+    'gallery.prev':            'Photo précédente',
+    'gallery.next':            'Photo suivante',
+    'gallery.photoAlt':        'Photo du projet',
+    'gallery.noMedia':         'Aucune photo pour ce projet pour l\'instant.',
+    'gallery.addImages':       'Glisse tes images dans le dossier correspondant :',
+    'gallery.updateFile':      'Puis mets à jour le fichier',
+    'gallery.videoThumb':      'Vidéo ',
+    'gallery.photoThumb':      'Photo ',
+    'gallery.videoUnsupported':'Votre navigateur ne supporte pas la lecture vidéo.',
   },
+
   en: {
+    /* ── Navigation ── */
     'nav.home':       'Home',
     'nav.about':      'About',
     'nav.projects':   'Projects',
-    'nav.experience': 'Experience',
+    'nav.experience': 'Experiences',
     'nav.skills':     'Skills',
     'nav.contact':    'Contact',
 
+    /* ── Hero ── */
     'hero.badge':   'Community Manager · Marketing · Customer Experience',
-    'hero.sub':     'Master Marketing & Customer Experience · EMLV Paris La Défense',
+    'hero.sub':     'Master\'s Degree in Marketing & Customer Experience · EMLV Paris La Défense',
     'hero.tagline': 'Passionate about travel · Fashion · Makeup · Disney',
     'hero.cta1':    '✦ Discover my projects',
     'hero.cta2':    'Contact me →',
 
+    /* ── About ── */
     'about.label': '✦ About me',
     'about.title': 'Creative, ambitious, passionate',
     'about.p1':    'Graduate with a Bachelor\'s degree from <strong>ESI Business School</strong> (Green, Social & Digital Business), I am currently pursuing a Master\'s in <strong>Marketing & Customer Experience</strong> at EMLV.',
     'about.p2':    'Interested in the world of <strong>communication and marketing</strong>, I believe a brand deserves to be told like a story: with care, consistency and emotion. From branding to social media, through direct marketing, I bring this philosophy to every project.',
+    'about.tag.mm-digital': 'Digital Marketing',
+    'about.tag.exp-client': 'Customer Experience',
+    'about.stat1': 'Creative projects',
+    'about.stat2': 'Years of experience',
+    'about.stat3': 'Education level',
 
+    /* ── Projects ── */
     'projects.label': '✦ Work',
     'projects.title': 'Creative Projects',
 
-    'exp.label': '✦ Career',
-    'exp.title': 'Professional Experience',
+    /* ── Experience ── */
+    'exp.label': '✦ Career path',
+    'exp.title': 'Professional Experiences',
+    'exp.1.date': 'September 2023 — Present · Work-study program',
+    'exp.1.role': 'Direct Marketing Assistant — 360 Fundraising',
+    'exp.1.pt1':  'Telemarketing channel management: campaign launch and monitoring, scripts, objection-handling guide',
+    'exp.1.pt2':  'Mailing channel: management of print campaigns, briefs, proofreading (BAT/BAR)',
+    'exp.1.pt3':  'Financial management: purchase requests, purchase orders, budget tracking',
+    'exp.1.pt4':  'Welcome Pack redesign, training of outsourced teams, weekly reporting',
+    'exp.1.pt5':  'Tools: PowerPoint, Excel, Canva, UBW, Word',
+    'exp.2.date': 'June — August 2023',
+    'exp.2.role': 'Administrative and Communications Manager',
+    'exp.2.pt1':  'Creation of a website mockup and business cards',
+    'exp.2.pt2':  'Bookkeeping, scheduling, client outreach and banking liaison',
+    'exp.2.pt3':  'Tools: Editor X, Canva, Excel, VTC platforms',
+    'exp.3.date': 'August 2022 · Internship',
+    'exp.3.role': 'Administrative Assistant',
+    'exp.3.pt1':  'Administrative management: sending and receiving mail',
+    'exp.3.pt2':  'Patient records management via Orbis, Excel and Word',
+    'exp.4.date': 'June — July 2022 · Internship',
+    'exp.4.role': 'Sales Assistant Intern',
+    'exp.4.pt1':  'Customer service, merchandising, shelf-facing, cash register management',
+    'exp.4.pt2':  'Inventory management, orders and deliveries (UPS pick-up point)',
+    'exp.5.date': 'June 2019 · Discovery Internship',
+    'exp.5.role': 'Discovery Internship',
+    'exp.5.pt1':  'Introduction to retail management (listening, organization, perseverance)',
+    'exp.5.pt2':  'Customer service, partner relations, stock management',
 
-    'skills.label':   '✦ Expertise',
-    'skills.title':   'Tools & Skills',
-    'skills.lang.en': 'English — C1',
+    /* ── Skills ── */
+    'skills.label':         '✦ Expertise',
+    'skills.title':         'Tools & Skills',
+    'skills.card1':         'Creative & Graphic Design',
+    'skills.card2':         'Marketing & Communication',
+    'skills.card3':         'Office Tools',
+    'skills.card4':         'Languages & Soft Skills',
+    'skills.pill.charte':   'Brand Guidelines',
+    'skills.pill.identite': 'Visual Identity',
+    'skills.pill.print':    'Print Materials',
+    'skills.pill.mm':       'Digital Marketing',
+    'skills.pill.md':       'Direct Marketing',
+    'skills.pill.ec':       'Customer Experience',
+    'skills.pill.budget':   'Budget Management',
+    'skills.lang.fr':       'French — Native',
+    'skills.lang.en':       'English — C1',
+    'skills.lang.es':       'Spanish — Intermediate',
+    'skills.soft.oral':     'Oral Communication',
+    'skills.soft.pb':       'Problem Solving',
+    'skills.soft.pm':       'Project Management',
 
+    /* ── Education ── */
     'edu.label': '✦ Education',
     'edu.title': 'Academic Background',
-    'vol.label': '✦ Volunteering',
+    'edu.card1.yr':     '2024 → 2026 · In progress',
+    'edu.card1.dip':    'Master\'s Degree in Marketing & Customer Experience',
+    'edu.card1.detail': 'Product & service marketing, innovation, design thinking, marketing levers, omnichannel strategy, negotiations, retail management, business ethics.',
+    'edu.card1.badge':  '✦ Master 2',
+    'edu.card2.yr':     '2021 → 2024 · Graduated',
+    'edu.card2.dip':    'Bachelor\'s Degree in Green, Social & Digital Business',
+    'edu.card2.detail': 'Boulogne-Billancourt. Operational marketing, management, CSR. Group projects with recurring oral presentations.',
+    'edu.card2.badge':  '✦ Bachelor\'s Degree obtained',
+    'edu.card3.yr':     '2006 → 2021 · Graduated',
+    'edu.card3.dip':    'French General Baccalaureate',
+    'edu.card3.detail': 'Majors: humanities, social & economic sciences, LLCER. Language immersion trips to England and Spain.',
+    'edu.card3.badge':  '🏆 With honors',
 
-    'contact.label': '✦ Contact',
-    'contact.title': 'Let\'s work together',
-    'contact.h3':    'Get in touch!',
-    'contact.sub':   'Master\'s student in Marketing & Customer Experience at EMLV, ready to bring my creativity and passion to your team ✨',
+    /* ── Volunteer ── */
+    'vol.label':  '✦ Volunteer Work',
+    'vol.chip1':  'Outreach rounds',
+    'vol.chip2':  'Hot meal distribution',
+    'vol.chip3':  '"A Letter, A Smile" initiative',
+
+    /* ── Contact ── */
+    'contact.label':    '✦ Contact',
+    'contact.title':    'Let\'s work together',
+    'contact.h3':       'Get in touch!',
+    'contact.sub':      'Master\'s student in Marketing & Customer Experience at EMLV, ready to bring my creativity and passion to your team ✨',
+    'contact.location': 'Paris Region, France',
+
+    /* ── Footer ── */
+    'footer.text': 'Portfolio 2026 · Crafted with creativity &nbsp;<span class="f-gold">✨</span>&nbsp; · EMLV Marketing Master\'s Degree',
+
+    /* ── Gallery UI ── */
+    'gallery.ariaLabel':       'Project gallery',
+    'gallery.close':           'Close (Esc)',
+    'gallery.prev':            'Previous item',
+    'gallery.next':            'Next item',
+    'gallery.photoAlt':        'Project photo',
+    'gallery.noMedia':         'No media available for this project yet.',
+    'gallery.addImages':       'Add your images to the corresponding folder:',
+    'gallery.updateFile':      'Then update the file',
+    'gallery.videoThumb':      'Video ',
+    'gallery.photoThumb':      'Photo ',
+    'gallery.videoUnsupported':'Your browser does not support video playback.',
   }
 };
 
@@ -949,19 +1207,33 @@ function setLang(lang) {
   if (!I18N[lang]) return;
   var dict = I18N[lang];
 
-  /* Apply textContent translations */
+  /* ── textContent translations ── */
   document.querySelectorAll('[data-i18n]').forEach(function(el) {
     var key = el.getAttribute('data-i18n');
     if (dict[key] !== undefined) el.textContent = dict[key];
   });
 
-  /* Apply innerHTML translations (for elements with strong/em tags) */
+  /* ── innerHTML translations (strong/em tags) ── */
   document.querySelectorAll('[data-i18n-html]').forEach(function(el) {
     var key = el.getAttribute('data-i18n-html');
     if (dict[key] !== undefined) el.innerHTML = dict[key];
   });
 
-  /* Toggle button states */
+  /* ── title attribute translations ── */
+  document.querySelectorAll('[data-i18n-title]').forEach(function(el) {
+    var key = el.getAttribute('data-i18n-title');
+    if (dict[key] !== undefined) el.title = dict[key];
+  });
+
+  /* ── alt attribute translations ── */
+  document.querySelectorAll('[data-i18n-alt]').forEach(function(el) {
+    var key = el.getAttribute('data-i18n-alt');
+    if (dict[key] !== undefined) el.alt = dict[key];
+  });
+  document.querySelectorAll('[data-i18n-aria]').forEach(function(el) {
+    var key = el.getAttribute('data-i18n-aria');
+    if (dict[key] !== undefined) el.setAttribute('aria-label', dict[key]);
+  });
   var btnFr = document.getElementById('btn-fr');
   var btnEn = document.getElementById('btn-en');
   if (btnFr && btnEn) {
@@ -970,15 +1242,13 @@ function setLang(lang) {
     btnFr.setAttribute('aria-pressed', lang === 'fr' ? 'true' : 'false');
     btnEn.setAttribute('aria-pressed', lang === 'en' ? 'true' : 'false');
   }
-
-  /* Update html lang attribute */
   document.documentElement.lang = lang === 'en' ? 'en' : 'fr';
-
-  /* Save to localStorage */
+  window.currentLang = lang;
+  if (typeof window.rebuildProjects === 'function') window.rebuildProjects(lang);
+  if (typeof window.replaceEmojis === 'function') window.replaceEmojis(document.body);
   try { localStorage.setItem('sk-lang', lang); } catch(e) {}
 }
 
-/* Restore saved language on page load */
 (function() {
   var saved = 'fr';
   try { saved = localStorage.getItem('sk-lang') || 'fr'; } catch(e) {}
